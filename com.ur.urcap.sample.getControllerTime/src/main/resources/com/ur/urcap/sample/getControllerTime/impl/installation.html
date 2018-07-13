@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Time Server</title>
+		<style>
+			label, input {
+				display: inline-block;
+				width: 40px;
+				height: 28px;
+			}
+			
+			div.spacer {
+				padding-top: 5px;
+	 		}
+        </style>
+	</head>
+	<body>
+		<h1>Controller Time Server</h1>
+		<div class="spacer">&nbsp;</div>		
+		<form>
+			<input id="cbDaemon" type="checkbox" /> Run Time Server <br>
+			<label id="lblDaemonStatus" style="width:400px">Status of daemon</label>
+			<div class="spacer">&nbsp;</div>	
+			<input id="cbScriptFunctions" type="checkbox" /> Add functions to Expression Editor. <br>
+			<div class="spacer">&nbsp;</div>	
+			<p> The XML-RPC handle is "timeserver" </p>
+			<p> Example <i> year = timeserver.getYear() </i></p>
+			<div class="spacer">&nbsp;</div>	
+			<p> Following functions are implemented: </p>
+			<p><i> getYear() </i> - Returns the current year. E.g. 2017 </p>
+			<p><i> getMonth() </i> - Returns the current month. E.g. 5 </p>
+			<p><i> getDate() </i> - Returns the current date in the month. E.g. 31 </p>
+			<p><i> getHour() </i> - Returns the current hour. E.g. 16 </p>
+			<p><i> getMinute() </i> - Returns the current minute. E.g. 58 </p>
+			<p><i> getSecond() </i> - Returns the current second. E.g. 32 </p>
+			<p><i> getMillisecond() </i> - Returns the current millisecond as floating point. E.g. 390.231 </p>
+			<p> All times are equivalent to the time of the controller </p>
+		</form>
+	</body>
+</html>

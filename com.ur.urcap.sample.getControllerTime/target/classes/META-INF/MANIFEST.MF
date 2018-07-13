@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1531480761438
+Build-Jdk: 1.8.0_171
+Built-By: jbm
+Bundle-Activator: com.ur.urcap.sample.getControllerTime.impl.Activator
+Bundle-Category: URCap
+Bundle-ContactAddress: 123 URCap Street
+Bundle-Copyright: Copyright notice (C)
+Bundle-Description: A URCap that enables to get the controller time in U
+ RScript
+Bundle-LicenseType: Freeware sample with no responsibilities.
+Bundle-ManifestVersion: 2
+Bundle-Name: getControllerTime
+Bundle-SymbolicName: com.ur.urcap.sample.getControllerTime
+Bundle-Vendor: JBM
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.ur.urcap.api.contribution;version="[1.1.0,2.0.0)",co
+ m.ur.urcap.api.domain;version="[1.1.0,2.0.0)",com.ur.urcap.api.domain.d
+ ata;version="[1.1.0,2.0.0)",com.ur.urcap.api.domain.function;version="[
+ 1.1.0,2.0.0)",com.ur.urcap.api.domain.script;version="[1.1.0,2.0.0)",co
+ m.ur.urcap.api.ui.annotation;version="[1.1.0,2.0.0)",com.ur.urcap.api.u
+ i.component;version="[1.1.0,2.0.0)",org.osgi.framework;version="[1.6,2)
+ "
+Tool: Bnd-2.1.0.20130426-122213
