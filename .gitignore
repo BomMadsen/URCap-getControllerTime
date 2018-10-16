@@ -1,0 +1,18 @@
+# use glob syntax.
+syntax: glob
+*.class
+*~
+*.bak
+*.off
+*.old
+
+# Eclipse
+.classpath
+.project
+.settings
+
+com.ur.urcap.sample.getControllerTime/target/classes/
+com.ur.urcap.sample.getControllerTime/target/maven-status/
+com.ur.urcap.sample.getControllerTime/target/surefire-reports/
+com.ur.urcap.sample.getControllerTime/target/test-classes/
+com.ur.urcap.sample.getControllerTime/.settings/
